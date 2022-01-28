@@ -9,5 +9,16 @@ data class Hero(
     val description : String,
     val superpower: String,
     val ranking : Int,
-    val image: String) : Parcelable {
+    val image: String) : Parcelable, Comparable<Hero> {
+        override fun compareTo(other: Hero) : Int {
+            var thisRank = this.ranking
+            var otherRank = other.ranking
+            if (thisRank < otherRank) {
+                return -1
+            } else if (thisRank > otherRank) {
+                return 1
+            } else {
+                return 0
+            }
+        }
 }

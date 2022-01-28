@@ -52,7 +52,7 @@ class HeroAdapter(var dataSet: List<Hero>) :
         viewHolder.textViewDesc.text = hero.description
         viewHolder.layout.setOnClickListener {
             //Toast.makeText(it.context, "Hi, you clicked on ${hero.name}", Toast.LENGTH_SHORT).show()
-           //get the context from something in the viewholder
+           //get the context from something in the viewHolder
             val context = viewHolder.layout.context
             val heroDetailIntent = Intent(context, HeroesDetailActivity::class.java).apply {
                 putExtra(HeroesDetailActivity.EXTRA_HERO, hero)

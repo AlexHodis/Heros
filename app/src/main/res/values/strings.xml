@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Heros</string>
+    <string name = "sort_name"> Sort by name</string>
+    <string name = "sort_rank"> Sort by rank</string>
 </resources>
