@@ -5,9 +5,9 @@
       <map>
         <entry key="app/src/main/res/layout/activity_heroes_detail.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_heroes_list.xml" value="0.375" />
-        <entry key="app/src/main/res/layout/item_hero.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_hero.xml" value="0.55" />
         <entry key="app/src/main/res/layout/profile_hero.xml" value="0.375" />
-        <entry key="app/src/main/res/menu/sorting_menu.xml" value="0.35104166666666664" />
+        <entry key="app/src/main/res/menu/sorting_menu.xml" value="0.335" />
       </map>
     </option>
   </component>
